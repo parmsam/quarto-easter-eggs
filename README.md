@@ -26,7 +26,7 @@ Then you can type one of the keywords and something special will show up. It's p
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
 
-The output of `example.qmd` is [here](https://https://parmsam.github.io/quarto-easter-eggs/).
+The output of `example.qmd` is [here](https://parmsam.github.io/quarto-easter-eggs/).
 
 ## Credit
 
