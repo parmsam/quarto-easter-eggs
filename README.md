@@ -1,4 +1,4 @@
-# Easter Eggs Collection Extension For Quarto
+# Easter Egg Collection Extension For Quarto
 
 This filter ports [WeiChiaChang](https://github.com/WeiChiaChang)'s [Easter Egg Collection](https://github.com/WeiChiaChang/easter-egg-collection/tree/master) over to Quarto. The extension lets you type a keyword and see something special pop in on the web page.
 
