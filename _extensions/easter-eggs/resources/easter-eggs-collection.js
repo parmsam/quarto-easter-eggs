@@ -1,3 +1,8 @@
+const _easterEggsBase = (() => {
+  const s = document.currentScript;
+  return s ? s.src.replace(/[^\/]*$/, '') + 'images/' : '';
+})();
+
 function bravo () {
   "use strict"
 
@@ -62,7 +67,7 @@ function bravo () {
     document.addEventListener('keyup', record)
   };
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/bravo.gif'
+  let data = _easterEggsBase + 'bravo.gif'
 
   init(data)
 }
@@ -152,7 +157,7 @@ function britney () {
 
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/britney.gif'
+  var data = _easterEggsBase + 'britney.gif'
 
   init(data);
 }
@@ -214,7 +219,7 @@ function doggy () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/doggy.gif'
+  let data = _easterEggsBase + 'doggy.gif'
 
   init(data)
 }
@@ -277,7 +282,7 @@ function ghost () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/ghost.gif"
+  var data = _easterEggsBase + "ghost.gif"
 
   init(data)
 }
@@ -346,7 +351,7 @@ function gun () {
     document.addEventListener('keyup', record)
   };
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/gun.gif'
+  let data = _easterEggsBase + 'gun.gif'
 
   init(data)
 }
@@ -436,7 +441,7 @@ function koggy () {
 
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/koggy.gif'
+  var data = _easterEggsBase + 'koggy.gif'
 
   init(data);
 }
@@ -500,7 +505,7 @@ function money () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/nomoney.gif"
+  var data = _easterEggsBase + "nomoney.gif"
 
   init(data)
 }
@@ -1946,7 +1951,7 @@ function pikachu () {
 
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/pikachu.gif'
+  var data = _easterEggsBase + 'pikachu.gif'
 
   init(data);
 }
@@ -2009,7 +2014,7 @@ function runningCat () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/running-cat.gif'
+  let data = _easterEggsBase + 'running-cat.gif'
 
   init(data)
 }
@@ -2072,7 +2077,7 @@ function runningPikachu () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/running-pikachu.gif'
+  let data = _easterEggsBase + 'running-pikachu.gif'
 
   init(data)
 }
@@ -2135,7 +2140,7 @@ function sonic () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/sonic.gif'
+  let data = _easterEggsBase + 'sonic.gif'
 
   init(data)
 }
@@ -2199,7 +2204,7 @@ function spongebob () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/spongebob.gif"
+  var data = _easterEggsBase + "spongebob.gif"
 
   init(data)
 }
@@ -2261,7 +2266,7 @@ function homer () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/homer.gif'
+  let data = _easterEggsBase + 'homer.gif'
 
   init(data)
 }
@@ -2323,7 +2328,7 @@ function dog () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/dog.gif'
+  let data = _easterEggsBase + 'dog.gif'
 
   init(data)
 }
@@ -2385,7 +2390,7 @@ function bird () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/jumping-bird.gif'
+  let data = _easterEggsBase + 'jumping-bird.gif'
 
   init(data)
 }
@@ -2449,7 +2454,7 @@ function piqiu () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/Piqiu.gif"
+  var data = _easterEggsBase + "Piqiu.gif"
 
   init(data)
 }
@@ -2514,7 +2519,7 @@ function lol () {
 
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/lol.gif'
+  var data = _easterEggsBase + 'lol.gif'
 
   init(data);
 }
@@ -2579,7 +2584,7 @@ function ohhh () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/wooow.png'
+  var data = _easterEggsBase + 'wooow.png'
 
   init(data);
 }
@@ -2642,7 +2647,7 @@ function nyancat () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/nyancat.gif'
+  let data = _easterEggsBase + 'nyancat.gif'
 
   init(data)
 }
@@ -2706,7 +2711,7 @@ function salamander () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/Salamander.gif"
+  var data = _easterEggsBase + "Salamander.gif"
 
   init(data)
 }
@@ -2767,7 +2772,7 @@ function airguitar () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/airguitar.gif'
+  var data = _easterEggsBase + 'airguitar.gif'
 
   init(data);
 }
@@ -2829,7 +2834,7 @@ function dragon () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/dragon.gif'
+  let data = _easterEggsBase + 'dragon.gif'
 
   init(data)
 }
@@ -2891,7 +2896,7 @@ function psyduck () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/psyduck.gif'
+  var data = _easterEggsBase + 'psyduck.gif'
 
   init(data);
 }
@@ -2954,7 +2959,7 @@ function piggy () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/piggy.gif'
+  let data = _easterEggsBase + 'piggy.gif'
 
   init(data)
 }
@@ -3016,7 +3021,7 @@ function sensei () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/sensei.gif'
+  var data = _easterEggsBase + 'sensei.gif'
 
   init(data);
 }
@@ -3079,7 +3084,7 @@ function rabbit () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/rabbit.gif"
+  var data = _easterEggsBase + "rabbit.gif"
 
   init(data)
 }
@@ -3143,7 +3148,7 @@ function joker () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/joker.gif"
+  var data = _easterEggsBase + "joker.gif"
 
   init(data)
 }
@@ -3205,7 +3210,7 @@ function mario () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/mario.gif'
+  let data = _easterEggsBase + 'mario.gif'
 
   init(data)
 }
@@ -3269,7 +3274,7 @@ function fox () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/fox.gif"
+  var data = _easterEggsBase + "fox.gif"
 
   init(data)
 }
@@ -3331,7 +3336,7 @@ function jump () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/jump.gif'
+  var data = _easterEggsBase + 'jump.gif'
 
   init(data);
 }
@@ -3395,7 +3400,7 @@ function tank () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/tank.gif"
+  var data = _easterEggsBase + "tank.gif"
 
   init(data)
 }
@@ -3457,7 +3462,7 @@ function winner () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/winner.gif'
+  var data = _easterEggsBase + 'winner.gif'
 
   init(data);
 }
@@ -3519,7 +3524,7 @@ function handsome () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/handsome.gif'
+  let data = _easterEggsBase + 'handsome.gif'
 
   init(data)
 }
@@ -3584,7 +3589,7 @@ function penguin () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/penguin.gif"
+  var data = _easterEggsBase + "penguin.gif"
 
   init(data)
 }
@@ -3647,7 +3652,7 @@ function swim () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/swim.gif'
+  let data = _easterEggsBase + 'swim.gif'
 
   init(data)
 }
@@ -3707,7 +3712,7 @@ function thankyou () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/thank.gif'
+  var data = _easterEggsBase + 'thank.gif'
 
   init(data);
 }
@@ -3769,7 +3774,7 @@ function earth () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/earth.gif'
+  let data = _easterEggsBase + 'earth.gif'
 
   init(data)
 }
@@ -3832,7 +3837,7 @@ function fly () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/fly.gif"
+  var data = _easterEggsBase + "fly.gif"
 
   init(data)
 }
@@ -3896,7 +3901,7 @@ function snorlax () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/snorlax.gif"
+  var data = _easterEggsBase + "snorlax.gif"
 
   init(data)
 }
@@ -3958,7 +3963,7 @@ function board () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/board.gif'
+  let data = _easterEggsBase + 'board.gif'
 
   init(data)
 }
@@ -4021,7 +4026,7 @@ function haters () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/haters.gif'
+  let data = _easterEggsBase + 'haters.gif'
 
   init(data)
 }
@@ -4084,7 +4089,7 @@ function onmyway () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/onmyway.gif'
+  let data = _easterEggsBase + 'onmyway.gif'
 
   init(data)
 }
@@ -4146,7 +4151,7 @@ function no () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/no.gif'
+  var data = _easterEggsBase + 'no.gif'
 
   init(data);
 }
@@ -4208,7 +4213,7 @@ function kirby () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/kirby.gif'
+  let data = _easterEggsBase + 'kirby.gif'
 
   init(data)
 }
@@ -4271,7 +4276,7 @@ function hangover () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/hangover.gif'
+  let data = _easterEggsBase + 'hangover.gif'
 
   init(data)
 }
@@ -4335,7 +4340,7 @@ function balloon () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/balloon.gif"
+  var data = _easterEggsBase + "balloon.gif"
 
   init(data)
 }
@@ -4397,7 +4402,7 @@ function cool () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/cool.gif'
+  var data = _easterEggsBase + 'cool.gif'
   init(data);
 }
 
@@ -4459,7 +4464,7 @@ function walk () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/walk.gif'
+  let data = _easterEggsBase + 'walk.gif'
   init(data)
 }
 
@@ -4523,7 +4528,7 @@ function ufo () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/ufo.gif"
+  var data = _easterEggsBase + "ufo.gif"
   init(data)
 }
 
@@ -4587,7 +4592,7 @@ function pie () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/pie.gif"
+  var data = _easterEggsBase + "pie.gif"
   init(data)
 }
 
@@ -4649,7 +4654,7 @@ function pokeball () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/pokeball.gif'
+  let data = _easterEggsBase + 'pokeball.gif'
   init(data)
 }
 
@@ -4711,7 +4716,7 @@ function hippo () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/hippo.gif'
+  let data = _easterEggsBase + 'hippo.gif'
   init(data)
 }
 
@@ -4774,7 +4779,7 @@ function hiphop () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/hiphop.gif"
+  var data = _easterEggsBase + "hiphop.gif"
   init(data)
 }
 
@@ -4836,7 +4841,7 @@ function robot () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/robot.gif'
+  let data = _easterEggsBase + 'robot.gif'
 
   init(data)
 }
@@ -4899,7 +4904,7 @@ function bat () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/bat.gif'
+  let data = _easterEggsBase + 'bat.gif'
 
   init(data)
 }
@@ -4962,7 +4967,7 @@ function travel () {
     document.addEventListener('keyup', record)
   }
 
-  let data = 'https://weichiachang.github.io/easter-eggs-mobile/images/travel.gif'
+  let data = _easterEggsBase + 'travel.gif'
 
   init(data)
 }
@@ -5027,7 +5032,7 @@ function haha () {
 
   };
 
-  var data = "https://weichiachang.github.io/easter-eggs-mobile/images/haha.gif"
+  var data = _easterEggsBase + "haha.gif"
 
   init(data)
 }
@@ -5088,7 +5093,7 @@ function kumamon () {
     document.addEventListener('keyup', record);
   };
 
-  var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/kumamon.gif';
+  var data = _easterEggsBase + 'kumamon.gif';
 
   init(data);
 }
@@ -5153,7 +5158,7 @@ function unicorn () {
 
     };
 
-    var data = "https://weichiachang.github.io/easter-eggs-mobile/images/unicorn.gif"
+    var data = _easterEggsBase + "unicorn.gif"
 
     init(data)
 }
@@ -5215,7 +5220,7 @@ function wink () {
       document.addEventListener('keyup', record);
     };
 
-    var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/wink.gif';
+    var data = _easterEggsBase + 'wink.gif';
 
     init(data);
 }
@@ -5276,7 +5281,7 @@ function hi () {
       document.addEventListener('keyup', record);
     };
 
-    var data = 'https://weichiachang.github.io/easter-eggs-mobile/images/hi.gif';
+    var data = _easterEggsBase + 'hi.gif';
 
     init(data);
 }
